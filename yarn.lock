@@ -4,6 +4,24 @@
 __metadata:
   version: 5
 
+"hello-cli@workspace:hello-cli":
+  version: 0.0.0-use.local
+  resolution: "hello-cli@workspace:hello-cli"
+  languageName: unknown
+  linkType: soft
+
+"hello-lib-test@workspace:hello-lib-test":
+  version: 0.0.0-use.local
+  resolution: "hello-lib-test@workspace:hello-lib-test"
+  languageName: unknown
+  linkType: soft
+
+"hello-lib@workspace:hello-lib":
+  version: 0.0.0-use.local
+  resolution: "hello-lib@workspace:hello-lib"
+  languageName: unknown
+  linkType: soft
+
 "typescript-workspaces-example@workspace:.":
   version: 0.0.0-use.local
   resolution: "typescript-workspaces-example@workspace:."
