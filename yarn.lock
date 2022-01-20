@@ -5,9 +5,20 @@ __metadata:
   version: 5
   cacheKey: 8
 
+"@types/node@npm:^16":
+  version: 16.11.21
+  resolution: "@types/node@npm:16.11.21"
+  checksum: 75b679dc6375cf09bc14a2d1b344be6f3fd8ea50f212b0d60970dc9e175cef45e44c284c716eb9e766ffa52d0c83b689adb3d1911b6dd8649c560b8f77442a22
+  languageName: node
+  linkType: hard
+
 "hello-cli@workspace:hello-cli":
   version: 0.0.0-use.local
   resolution: "hello-cli@workspace:hello-cli"
+  dependencies:
+    "@types/node": ^16
+    hello-lib: "workspace:*"
+    typescript: ^4.5.4
   languageName: unknown
   linkType: soft
 
@@ -17,7 +28,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"hello-lib@workspace:hello-lib":
+"hello-lib@workspace:*, hello-lib@workspace:hello-lib":
   version: 0.0.0-use.local
   resolution: "hello-lib@workspace:hello-lib"
   dependencies:
