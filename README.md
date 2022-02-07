@@ -2,6 +2,8 @@
 
 This combines [Yarn Workspaces](https://yarnpkg.com/features/workspaces) with TypeScript [Project References](https://www.typescriptlang.org/docs/handbook/project-references.html) to organize a project into separate modules, like you find in other language ecosystems.
 
+Read more in [this blog post](https://spin.atomicobject.com/2022/02/07/typescript-project-workspaces/).
+
 Directories:
 
 ```
