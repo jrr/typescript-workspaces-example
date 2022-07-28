@@ -4752,6 +4752,8 @@ __metadata:
 "typescript-workspaces-example@workspace:.":
   version: 0.0.0-use.local
   resolution: "typescript-workspaces-example@workspace:."
+  dependencies:
+    typescript: ^4.5.4
   languageName: unknown
   linkType: soft
 
