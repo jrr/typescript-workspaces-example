@@ -5,5 +5,8 @@
     "hello-lib",
     "hello-lib-test",
     "hello-cli"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }
